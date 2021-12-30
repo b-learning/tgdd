@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  /* width */
+  /* Track */
+  /* Handle */
+  /* Handle on hover */
+}
+
+* ::-webkit-scrollbar {
+  width: 9px;
+}
+
+* ::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+* ::-webkit-scrollbar-thumb {
+  border-radius: 7px;
+  background: #fff;
+}
+
+* ::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.header {
+  background-color: #1f2431;
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 60px;
+  color: white;
+}
+
+.header__logo {
+  color: #788195;
+  font-size: 40px;
+  font-family: 'Pushster', cursive;
+}
+
+.header__info {
+  font-size: 25px;
+}
+
+.header__info i {
+  margin-left: 5px;
+  font-size: 26px;
+}
+
+.body {
+  width: 100%;
+  height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.body__left {
+  background-color: #2d3446;
+  height: 100%;
+  width: 80px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  padding: 40px 0px;
+}
+
+.body__left:hover {
+  width: 300px;
+}
+
+.body__left__item {
+  min-width: 400px;
+  color: white;
+  padding: 27px 27px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.body__left__item i {
+  font-size: 30px;
+  margin-right: 30px;
+}
+
+.body__left__item span {
+  font-size: 20px;
+}
+
+.body__left__item.active {
+  background-color: #1f2431;
+  border-left: 9px solid #fff;
+  color: #83d8ae;
+}
+
+.body__left__item:hover {
+  background-color: #1f2431;
+  border-left: 10px solid #fff;
+  padding-left: 40px;
+}
+
+.body__right {
+  background-color: #181821;
+  height: 100%;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  overflow-y: scroll;
+}
+
+.body__right__content {
+  width: 100%;
+  background-color: #181821;
+  color: #fff;
+  display: none;
+}
+
+.body__right__content.active {
+  display: block;
+}
+/*# sourceMappingURL=admin.css.map */
