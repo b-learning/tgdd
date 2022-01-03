@@ -73,6 +73,7 @@
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   padding: 40px 0px;
+  overflow: hidden;
 }
 
 .body__left:hover {

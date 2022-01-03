@@ -1,4 +1,4 @@
-console.log(listAccount);
+import { listAccount } from './data.js'
 
 let buttonTag = document.getElementById("login-button");
 

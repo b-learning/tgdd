@@ -57,6 +57,7 @@
         width: 80px;
         transition: all 0.5s;
         padding: 40px 0px;
+        overflow: hidden;
         &:hover{
             width: 300px;
         }
